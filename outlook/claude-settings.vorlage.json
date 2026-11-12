@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python outlook/outlook_tool.py accounts:*)",
+      "Bash(python outlook/outlook_tool.py folders:*)",
+      "Bash(python outlook/outlook_tool.py list:*)",
+      "Bash(python outlook/outlook_tool.py search:*)",
+      "Bash(python outlook/outlook_tool.py read:*)",
+      "Bash(python outlook/outlook_tool.py export-sent:*)",
+      "Bash(python outlook/outlook_tool.py --help)",
+      "Write(outlook/tmp/**)",
+      "Edit(outlook/tmp/**)",
+      "Read(outlook/tmp/**)"
+    ],
+    "ask": [
+      "Bash(python outlook/outlook_tool.py send-draft:*)",
+      "Bash(python outlook/outlook_tool.py delete:*)",
+      "Bash(python outlook/outlook_tool.py forward:*)",
+      "Bash(python outlook/outlook_tool.py reply:*)",
+      "Bash(python outlook/outlook_tool.py new:*)",
+      "Bash(python outlook/outlook_tool.py move:*)"
+    ]
+  }
+}
